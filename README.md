@@ -62,25 +62,25 @@ sequenceDiagram
 
 1. *Tracking of users's audiofiles*: MongoDB database + folder (per user) with audio files with unique IDs.
 
+1. *Web logs*: The web server keeps a trace of all users' interaction with the system.
+
 1. *Full compatibility with any client-app/device*: The communication protocol can be adjusted easily.
 
 1. *API documentation*: [Swagger](https://restasr.cls.ru.nl/api-docs) (standard http protocol).
 
-1. *Easy communication between independent Docker containers*: Unix pipelines.
-
-1. *Web logs*: The web server keeps a trace of all users' interaction with the system.
+1. *Easy communication between independent Docker containers*: [Unix pipelines](https://github.com/cristiantg/mkfifing-masterslave).
 
 1. *Security*:
-   1. jsonwebtoken ([JWT](https://jwt.io/)) for login authentication and secure requests.
-   1. https for encrypted and secure data transmission client-server.
-   1. The audio files can be removed after obtaining the transcription (the user can select this option on-the-fly).
-   1. Strong login passwords (bcrypt).
-   1. Login: Maximum number of wrong attempts –> 1 day ban (we can change this value, of course).
-   - Ticket system: Max. number of requests: regular vs. admin users. Currently: 50 requests/hour (default users). Admin users have no limitations. This value can be set for every user individually.
-   1. Register: Email confirmation token.
-   1. requests: Required and validation parameters rules for correct requests.
-   1. Type of the audio file: .wav, .ogg, etc. (fully customizable).
-   1. Size limit of the audio file: 5 MB (fully customizable).
+   1. *JSON Web Tokens* ([JWT](https://jwt.io/)) for login authentication and secure requests.
+   1. *https* for encrypted and secure data transmission client-server.
+   1. *Audio files* can be *removed* after obtaining the transcription (the user can select this option on-the-fly).
+   1. Strong login passwords (*[bcrypt](https://www.npmjs.com/package/bcrypt)*).
+   1. Login: *Maximum number of wrong attempts* –> 1 day ban (we can change this value, of course).
+   1. Fully customizable *ticket system* for requests: Max. number of requests: regular vs. admin users. Currently: 50 requests/hour (default users). Admin users have no limitations. This value can be set for every user individually.
+   1. Register: *Email confirmation token*.
+   1. Requests: *Required and validation parameters* rules for correct requests.
+   1. *Type* of the *audio fil*e: .wav, .ogg, etc. (fully customizable).
+   1. *Size limit* of the audio file: 5 MB (fully customizable).
 
 
 
