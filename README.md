@@ -117,6 +117,17 @@ The source code will be available soon.
 ### How to cite this work
 If you use this software for research/work, you can cite this repository giving credit to, at least, Cristian and CLST.
 
+```bibtex
+@misc{cristiantg2023audioserverfrontend,
+  title={audioserver-frontend},
+  author={Tejedor-Garcia, Cristian},
+  journal={GitHub repository},
+  year={2023},
+  publisher={GitHub},
+  howpublished = {\url{https://github.com/cristiantg/audioserverfront}}
+}
+```
+
 
 ### Contact
 [Cristian Tejedor-García](https://cristiantg.com) : **cristian [dot] tejedorgarcia [at] ru [dot] nl**
