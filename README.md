@@ -122,7 +122,7 @@ If you use this software for research/work, you can cite this repository giving 
 
 ```bibtex
 @misc{cristiantg2023audioserver,
-  title={audioserver-frontend},
+  title={audioserver},
   author={Tejedor-Garcia, Cristian},
   journal={GitHub repository},
   year={2023},
