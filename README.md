@@ -113,18 +113,21 @@ The source code will be available soon.
 ### API documentation
 `Swagger` : <https://restasr.cls.ru.nl/api-docs>
 
+### Frontend
+`Audioserverfront` : <https://github.com/cristiantg/audioserverfront>
+
 
 ### How to cite this work
 If you use this software for research/work, you can cite this repository giving credit to, at least, Cristian and CLST.
 
 ```bibtex
-@misc{cristiantg2023audioserverfrontend,
+@misc{cristiantg2023audioserver,
   title={audioserver-frontend},
   author={Tejedor-Garcia, Cristian},
   journal={GitHub repository},
   year={2023},
   publisher={GitHub},
-  howpublished = {\url{https://github.com/cristiantg/audioserverfront}}
+  howpublished = {\url{https://github.com/cristiantg/audioserver}}
 }
 ```
 
